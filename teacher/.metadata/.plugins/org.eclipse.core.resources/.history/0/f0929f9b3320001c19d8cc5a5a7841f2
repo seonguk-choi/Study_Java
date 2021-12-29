@@ -1,0 +1,10 @@
+package pack05_etc;
+
+import java.util.Scanner;
+
+public class Ex02_Break {
+	public static void main(String[] args) {
+		//스캐너. 콘솔창에 입력 된 값을 가져와서 사용하기위한.
+		//사용자가 입력한 값이 특정한 값이 경우에 while문을 종료.
+	}
+}

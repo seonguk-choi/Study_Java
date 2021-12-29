@@ -1,0 +1,33 @@
+
+public class DataBindDTO {
+	private int[] score;
+	private String name;
+	
+	
+	public DataBindDTO(int[] score, String name, int totalScore) {
+		super();
+		this.score = score;
+		this.name = name;
+		this.totalScore = totalScore;
+	}
+	public int getTotalScore() {
+		return totalScore;
+	}
+	public void setTotalScore(int totalScore) {
+		this.totalScore = totalScore;
+	}
+	private int totalScore;
+	public int[] getScore() {
+		return score;
+	}
+	public void setScore(int[] score) {
+		this.score = score;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}

@@ -1,0 +1,8 @@
+
+public class Ex000_Test {
+	public static void main(String[] args) {
+		int[] score = new int[4];
+		DataBindDTO dto = new DataBindDTO(score,"학생1" , 100);
+		
+	}
+}

@@ -1,0 +1,7 @@
+
+public class Ex000_Test {
+	public static void main(String[] args) {
+		DataBindDTO dto = new DataBindDTO();
+		dto.
+	}
+}

@@ -1,0 +1,10 @@
+package pack02_Array;
+
+public class Ex05_2Array {
+	public static void main(String[] args) {
+		//2차원배열은 요소로(구성) 1차원배열을 가지고 있다.
+		//1차원 배열은 값(데이터타입)을 요소로 가지고있다.
+		int arr1 = new int[3];
+		int arr2 = new int[4];
+	}
+}

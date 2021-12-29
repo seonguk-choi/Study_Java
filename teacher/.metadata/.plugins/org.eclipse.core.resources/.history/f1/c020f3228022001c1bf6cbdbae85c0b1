@@ -1,0 +1,11 @@
+package pack01_TryCatch;
+
+public class Ex02_TryCatch {
+	public static void main(String[] args) {
+		//숫자를 입력하면 문자를 입력하세요. 라고 출력되는 프로그램을 만드세요.
+		//Ex01<-숫자'만' 입력할수있는 프로그램
+		//Ex02<-문자열만 입력할수있는프로그램. 
+		//1을 입력하면 문자를 입력하세요.
+		//문자를 입력하면 잘입력되었습니다.
+	}
+}

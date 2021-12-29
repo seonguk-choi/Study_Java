@@ -1,0 +1,10 @@
+package pack02_Array;
+
+public class Test01_Array {
+	public static void main(String[] args) {
+		//Scanner sc = new Scanner(System.in);
+		//sc.nextLine()을 이용해서 숫자 세개를 입력받는다.(Enter Key)
+		//입력받은 값을 int[]형 배열에 넣고 그값을 출력하시오.
+		
+	}
+}
