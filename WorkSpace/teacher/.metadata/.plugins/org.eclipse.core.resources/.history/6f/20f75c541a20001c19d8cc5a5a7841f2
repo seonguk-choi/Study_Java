@@ -1,0 +1,14 @@
+package pack01_if;
+
+import java.util.Scanner;
+
+public class Ex03_if_else {
+	public static void main(String[] args) {
+		//if(조건식) {
+			//참일때 실행되는 실행부
+			//변수를 선언(초기화)
+		//}else{
+			//거짓일때 실행되는 실행부
+		//}
+	}
+}

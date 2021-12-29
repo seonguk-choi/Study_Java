@@ -1,0 +1,26 @@
+package pack01_String;
+
+import java.util.Scanner;
+
+public class Ex01_String {
+	public static void main(String[] args) {
+		//ex) str1(kym) == str2(kym)
+		Scanner sc = new Scanner(System.in);
+		String str1 = "kym";
+		String str2 = "kym";
+		String str3 = sc.nextLine();//<-"kym"
+		String str4 = new String("kym");
+		if(str1 == str2) {//String변수의 참조 주소가 같은지를 물어보는것.
+			System.out.println("str1 , str2 참조가 같음");
+		}
+		if(str1.equals(str3)) {//String변수의 실제 힙영역의 값을 비교
+			System.out.println("str1 , str3 값이 같음");
+		}
+		if(str1.equals(str4)) {
+			System.out.println("str1 , str4 값이 같음");
+		}
+		
+	
+		
+	}
+}

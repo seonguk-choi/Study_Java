@@ -1,0 +1,9 @@
+package pack02_Array;
+
+public class Ex07_sort {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20; 
+		System.out.println("a의 값 : " +  a + "b의값 :" + b);
+	}
+}

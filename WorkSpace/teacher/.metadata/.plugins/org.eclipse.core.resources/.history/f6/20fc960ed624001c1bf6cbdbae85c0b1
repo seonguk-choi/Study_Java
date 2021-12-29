@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Ex02_ScoreProgram {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);// 어떤값(콘솔)을 입력받기 위한sc
+		int[][] score = null;// 참조타입은 null로 초기화(일반변수는 값)
+		String[] student = null;
+		while (true) {
+			System.out.println("1.학생수 입력 2.점수 입력 3.점수리스트 4.분석 5.종료");
+			try {
+				int menu = Integer.parseInt(sc.nextLine());
+				if (menu == 1) {
+					//학생의 수를 입력받고 학생의 이름까지 입력하는 로직
+					//+2차원 배열을 입력받은 학생의수로 초기화시켜줘야한다.
+					System.out.println("학생의 수를 입력해주세요.");
+					int std_cnt = Integer.parseInt(sc.nextLine());
+					student = new String[std_cnt];
+				} else if (menu == 2) {
+
+				} else if (menu == 3) {
+
+				} else if (menu == 4) {
+
+				} else if (menu == 5) {
+
+				} else {
+					System.out.println("없는 메뉴입니다.");
+				}
+			} catch (Exception e) {
+				System.out.println("잘못된입력입니다.");
+			}
+		}
+
+	}
+}

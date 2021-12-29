@@ -1,0 +1,26 @@
+package pack02_switch;
+
+public class Ex01_Switch_Case {
+	public static void main(String[] args) {
+		//제어문 - 조건문 , 선택문
+		//선택문 switch : == 다중 if문을 간략하게 표현
+		//조건을 주기가 까다롭기때문에 사용빈도가 낮다
+		
+		//switch ( 조건식x , 값 ,   ){
+		//	case 값1:
+		//		break;
+		//	case 값2:
+		//		break;
+		//}
+		
+		int score = 90;
+		//		값
+		switch(score) {
+		case 90:
+			System.out.println("A학점입니다.");
+			break;
+		}//switch지역
+		
+		
+	}
+}
