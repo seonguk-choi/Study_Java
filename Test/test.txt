@@ -1,0 +1,31 @@
+select * from user_tbl;
+
+INSERT INTO user_tbl(student_no, user_id, user_pw, firstname, lastname, create_ymd)
+VALUES (15, 'a', 'd', '성욱', '최',  SYSDATE);
+
+DELETE FROM user_tbl
+WHERE  student_no = 15
+AND    USER_ID = 'cabin'
+AND    USER_PW = '1234';
+
+UPDATE user_tbl
+SET user_pw = 'a', firstname = '성욱' , lastname = '최', update_ymd = SYSDATE
+WHERE student_no = 15;
+
+SELECT user_id, user_pw 
+FROM  user_tbl
+WHERE user_id = 'a'
+AND   user_pw = 'd'
+
+SELECT COUNT(*)
+FROM user_tbl
+WHERE user_id = 'aaa'
+HAVING COUNT(*) > 0
+
+commit;
+rollback;
+
+UPDATE user_tbl SET user_pw = '1', firstname = '1', lastname = '1', update_ymd = SYSDATE WHERE student_no = 12;
+DELETE FROM user_tbl WHERE  student_no = 12 AND user_pw = 'a' AND user_pw = '1';
+
+INSERT INTO user_tbl(student_no, user_id, user_pw, firstname, lastname, create_ymd) VALUES (15, 'a', 'a', 'a', 'a',  SYSDATE);
