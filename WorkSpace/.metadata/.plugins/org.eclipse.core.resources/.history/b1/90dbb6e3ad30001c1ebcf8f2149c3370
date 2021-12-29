@@ -1,0 +1,44 @@
+package pack03_Interfaces;
+
+import pack01_interface.TestInterface;
+
+//Interface 설계도도 상속이 가능하다.(extends)
+public interface Interface_Extends extends TestInterface{
+	void itser1();
+	void itser2();
+	
+	public static void main(String[] args) {
+		Interface_Extends ie = new Interface_Extends() {
+			
+			@Override
+			public void test3() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void test2() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void test1() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void itser2() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void itser1() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+	}
+}

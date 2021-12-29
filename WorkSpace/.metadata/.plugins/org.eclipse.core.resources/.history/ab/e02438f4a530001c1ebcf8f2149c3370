@@ -1,0 +1,12 @@
+package pack02_interface;
+
+public class RemoteMain {
+	public static void main(String[] args) {
+		Audio a = new Audio();
+		a.turnOn();
+		a.turnOff();
+		a.setVolume(10); //개발 에러 : 0~10 MAX, MIN을 벗어남
+		System.out.println(a.getVolume());
+		//0~10 사이의 값이 들어오면
+	}
+}

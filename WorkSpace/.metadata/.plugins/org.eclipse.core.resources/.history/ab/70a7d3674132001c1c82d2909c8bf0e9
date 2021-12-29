@@ -1,0 +1,9 @@
+package test_array;
+
+import pack01_List.BoardDTO;
+
+public class BookMain {
+	public static void main(String[] args) {
+		ArrayList[] dto = new ArrayList[5];
+	}
+}

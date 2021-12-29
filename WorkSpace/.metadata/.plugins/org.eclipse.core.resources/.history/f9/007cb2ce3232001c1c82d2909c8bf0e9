@@ -1,0 +1,25 @@
+package pack02_map;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Ex01_HashSet {
+	public static void main(String[] args) {
+		Set<String> set = new HashSet<>();
+		//Interface를 implements 받은 객체(Class)들은
+		//Interface를 초기화시킬 수 있다.(생성자메소드)
+		set.add("java1");//?
+		set.add("java2");
+		set.add("java3");
+		set.add("java4");
+		set.add("java5");
+		set.add("java6");//참조값이 같다.
+		set.add("java6");//참조값이 같다.
+		set.add(new String("java6")); //참조값이 다르다.
+		boolean aa = set.add(new String("java6"));
+		System.out.println(set.size());
+		System.out.println(aa);
+		//for Upgrade -> 향상된 For문
+		
+	}
+}

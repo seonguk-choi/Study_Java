@@ -1,0 +1,10 @@
+
+public class ThreadNameB extends Thread{
+	public ThreadNameB() {
+		setName("ThreadB");
+	}
+	@Override
+	public void run() {
+		System.out.println(getName() +"<-나의 이름");
+	}
+}

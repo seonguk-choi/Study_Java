@@ -1,0 +1,24 @@
+package pack01_List;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Ex01_ArrayList2 {
+	public static void main(String[] args) {
+		//List
+		//E <- Element(요소)
+		//List가 가지는 객체의 타입이 무엇인지를 우리가 정의하는 부분
+		//E <- String[] Datatype 무엇인지를 쓰는 부분
+		String[] arr = new String[3];
+		List<String> list = new ArrayList<>();
+		System.out.println(arr.length);
+		System.out.println(list.size());
+		list.add("java1");
+		list.add("java2");
+		list.add("java3");
+		list.add(1, "인덱스");
+		list.add(2, "인덱스");
+		System.out.println(list.size());
+		System.out.println(list.get(3));
+	}
+}

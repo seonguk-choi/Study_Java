@@ -1,0 +1,17 @@
+package Test;
+
+public class TestMain {
+public static void main(String[] args) {
+	
+	
+	
+//	NoticeDTO dto = new NoticeDTO("72", "title72", "content72", "admin");
+//	NoticeDAO dao = new NoticeDAO();
+//	dao.connTest();
+//	dao.InsertNotice();
+//	dao.InsertNotice(dto);
+//	dao.UpdateNotice(dto);
+//	dao.DeleteNotice(dto);
+//	dao.SelectNotice();
+	}
+}

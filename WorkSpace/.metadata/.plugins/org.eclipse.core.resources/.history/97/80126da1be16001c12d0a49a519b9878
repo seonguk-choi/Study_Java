@@ -1,0 +1,12 @@
+
+public class Ex07_Bool2 {
+	public static void main(String[] args) {
+		//비교 ==, <
+		// a == b ? 같다 true, 다르다 false
+		int a = 10;
+		String result = a == 10 ? "맞습니다." : "다릅니다.";
+		//if 문이라는 제어문으로 대체 되지만 개념을 알자.
+		// ? true 일때의 반환값 : false 일때의 반환값
+		
+	}
+}

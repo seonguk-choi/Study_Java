@@ -1,0 +1,5 @@
+
+public class Test_Thread2 {
+	Runnable run1 = new Test_Task(1000, "동영상을 봅니다.");
+	Thread theadA = new Thread(run1);
+}

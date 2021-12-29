@@ -1,0 +1,18 @@
+package pack02_map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Ex02_HashMap {
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap<>();
+		map.put("최성욱", 32);
+		map.put("최승욱", 33);
+		map.put("최성옥", 34);
+		map.put("최성국", 35);
+		//1.맵의 지금 현재 데이터 담은 크기(총크기는 몇일까?)
+		//2.맵에 있는 데이터를 어떻게 가져올 수 있을까?
+		System.out.println(map.size());
+		System.out.println(map.get("최성욱"));
+	}
+}

@@ -1,0 +1,10 @@
+package test_array;
+
+public class BookDTO2 {
+	private String title;
+	private String publish;
+	private int price;
+	private int cnt;
+	private String writter;
+	
+}

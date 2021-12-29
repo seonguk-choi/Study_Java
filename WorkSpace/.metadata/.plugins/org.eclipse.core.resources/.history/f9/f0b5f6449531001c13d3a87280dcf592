@@ -1,0 +1,11 @@
+package package3;
+
+public class E2 {
+	//public D2(int num) { } <- 인스턴스화 가능할까? 자바프로젝트는 다 가능
+	//D(String data) { } <- 인스턴스화 가능할까? 페키지 내에서만 가능
+	//piravate D() { } <- 인스턴스화 가능할까? 클래스 내에서만 가능 setter & getter로 접근 가능
+	D2 d1 = new D2(1);
+	D2 d2 = new D2("2");
+	D2 d3 = new D2();
+
+}

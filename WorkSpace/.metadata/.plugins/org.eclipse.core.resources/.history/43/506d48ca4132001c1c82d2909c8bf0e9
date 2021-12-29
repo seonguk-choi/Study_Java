@@ -1,0 +1,10 @@
+package test_array;
+
+public class BookDAO {
+	void display(ArrayList[] dto) {
+		System.out.println("책의 제목\t출판사\t가격\t수량\t저자\t");
+		for (int i = 0; i < dto.length; i++) {
+			System.out.println();
+		}
+	}
+}

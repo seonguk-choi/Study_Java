@@ -1,0 +1,63 @@
+package pack03_Interfaces;
+
+import pack01_interface.TestInterface;
+import pack02_interface.RemoteController;
+
+//extends (다중상속을 지원 안함)
+//implements (다중상속을 지원함)
+public class Interfaces_Main implements TestInterface, RemoteController{
+	public static void main(String[] args) {
+		
+	}
+
+	@Override
+	public void test1() {
+	
+	}
+
+	@Override
+	public void test2() {
+	
+	}
+
+	@Override
+	public void test3() {
+	
+	}
+
+	@Override
+	public void turnOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setChannel(int channel) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setOs(String order) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setPlay(String play) {
+		// TODO Auto-generated method stub
+		
+	}
+}

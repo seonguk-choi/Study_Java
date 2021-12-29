@@ -1,0 +1,24 @@
+package pack01_List;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Ex02_ArrayListRef2 {
+	public static void main(String[] args) {
+		BoardDTO2 dto = new BoardDTO2(1, "title1", "content1");
+		BoardDTO2[] barray = new BoardDTO2[3];
+		barray[0] = dto;
+		System.out.println(Arrays.toString(barray));
+		barray[0] = new BoardDTO2(1, "title1", "content1");
+		barray[1] = new BoardDTO2(2, "title2", "content2");
+		barray[2] = new BoardDTO2(3, "title3", "content3");
+		System.out.println(Arrays.toString(barray));
+		ArrayList<BoardDTO2> list = new ArrayList<>();
+		list.add(new BoardDTO2(1, "title1", "content1"));
+		list.add(new BoardDTO2(2, "title2", "content2"));
+		list.add(new BoardDTO2(3, "title3", "content3"));
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i).getTitle());
+		}
+	}
+}

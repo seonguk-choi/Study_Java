@@ -1,0 +1,7 @@
+package package2;
+
+public class Snippet {
+	public static void main(String[] args) {
+		new BoardDTO2(1, "title1", "content1");	}
+}
+

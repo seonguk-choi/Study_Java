@@ -1,0 +1,14 @@
+package test_array;
+
+import pack01_List.BoardDTO;
+
+public class BookMain {
+	public static void main(String[] args) {
+		ArrayList[] dto = new ArrayList[5];
+		dto[0] = new ArrayList("가", "가", 1000, 1, "가");
+		dto[1] = new ArrayList("나", "나", 2000, 2, "나");
+		dto[2] = new ArrayList("다", "다", 3000, 3, "다");
+		dto[3] = new ArrayList("라", "라", 4000, 4, "라");
+		dto[4] = new ArrayList("마", "마", 5000, 5, "마");
+	}
+}

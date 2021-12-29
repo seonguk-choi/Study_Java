@@ -1,0 +1,9 @@
+package pack09_Protected;
+
+import pack08_Protected.A;
+
+public class C extends A{
+	public static void main(String[] args) {
+		A a = new 
+	}
+}

@@ -1,0 +1,13 @@
+package pack08_Protected;
+
+public class B extends A{
+	public void name() {
+		supper();
+		this.method();
+	}
+	public void init() {
+		A a = new A();
+		a.method();
+		a.field ="";
+	}
+}

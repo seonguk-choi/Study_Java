@@ -1,0 +1,14 @@
+package pack02_Extends;
+
+public class ExtendMain {
+	public static void main(String[] args) {
+		//Sub_Class만을 인스턴스화해서
+		//SpuerClass기능과 SubClass기능을 전부 호출하세요.
+		Sub_Class sc = new Sub_Class();
+		int x = 10;
+		int y = 2;
+		System.out.println(sc.mul(x, y));
+		System.out.println(sc.div(x, y));
+		System.out.println(sc.div_re(x, y));
+	}
+}

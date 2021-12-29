@@ -1,0 +1,16 @@
+package test_array;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookMain {
+	public static void main(String[] args) {
+		ArrayList<BookDTO> list =  new ArrayList<>();
+		list.add(new BookDTO("가", "가", 1000, 1, "가"));
+		list.add(new BookDTO("나", "나", 2000, 2, "나"));
+		list.add(new BookDTO("다", "다", 3000, 3, "다"));
+		list.add(new BookDTO("라", "라", 4000, 4, "라"));
+		list.add(new BookDTO("마", "마", 5000, 5, "마"));
+		list.display();
+	}
+}

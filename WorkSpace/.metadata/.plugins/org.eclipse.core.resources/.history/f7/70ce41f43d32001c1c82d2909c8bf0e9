@@ -1,0 +1,9 @@
+package pack03_Stack;
+
+public class Queue {
+	public static void main(String[] args) {
+		Queue<Coin> coinBoxQ = new LikedList<>();//List, Queue...
+		//stack push, queue offr
+		coinBoxQ.offer();//코인객체 넣기
+	}
+}

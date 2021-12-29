@@ -1,0 +1,6 @@
+
+public class Ex05_ThreadeNameMain {
+	public static void main(String[] args) {
+		Thread mainThread = Thread.currentThread();
+	}
+}

@@ -1,0 +1,6 @@
+
+public class ThreadMain {
+	public static void main(String[] args) {
+		Runnable threada = new ThreadMain()
+	}
+}

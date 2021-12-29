@@ -1,0 +1,11 @@
+package pack09_Protected;
+
+import pack08_Protected.A;
+//Protected 상속을 강제한다. 상속을 받지않은 다른 패키지 클래스에서는
+//사용이 불다능하게 막는 것
+//A클래스를 사용하기 위해서는 길은 
+public class C extends A{
+	public static void main(String[] args) {
+		A a = new  
+	}
+}

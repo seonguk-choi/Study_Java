@@ -1,0 +1,10 @@
+package pack01_List;
+
+import java.util.Arrays;
+
+public class Ex02_ArrayListRef2 {
+	public static void main(String[] args) {
+		BoardDTO2[] barray = new BoardDTO2[3];
+		System.out.println(Arrays.toString(barray));
+	}
+}

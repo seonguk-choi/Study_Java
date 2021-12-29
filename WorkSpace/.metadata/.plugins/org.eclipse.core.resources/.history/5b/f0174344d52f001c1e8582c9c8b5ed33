@@ -1,0 +1,7 @@
+package package5;
+
+import package4.Test1;
+
+public class TestMain {
+	Test1.
+}

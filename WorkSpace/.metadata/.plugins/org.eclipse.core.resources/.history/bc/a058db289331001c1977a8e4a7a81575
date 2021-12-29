@@ -1,0 +1,15 @@
+package package3;
+
+public class D2 {
+	//private 접근제한자
+	//메소드, 변수(field) 인스턴스 또는 static 멤버에 붙는 접근제한자.
+	D2 d1 = new D2(1);//O
+	D2 d2 = new D2("2");//O
+	D2 d3 = new D2();//O
+	public D2(int num) { }
+	D2(String data) { }//눈으로 안보이지만 별도의 접근제한자를 지정하지 않으면
+	//그 접근제한자가 default이다.
+	private D2() {
+	//같은 소스 내에서만 접근을 허용한다.
+	}
+}

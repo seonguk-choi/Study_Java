@@ -1,0 +1,24 @@
+package pack02_interface;
+
+//Audio의 리모콘을 개발한다.(설계도를 이용해서)
+public class Audio implements RemoteController{
+
+	@Override
+	public void turnOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
